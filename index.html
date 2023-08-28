@@ -12,7 +12,7 @@
  
 
 
-<section>
+<section id="sec_1">
   <button class="btn_overflow_active">Create New Account <br> <span id="my_span">(Plz cilck here)</span></button>
   <div class="full_screen">
     <div class="img_area">
@@ -29,7 +29,17 @@
     <img src="assets/image/team_img_01.png" id="myImg" width="300px" height="300px" padding-top="100px"  alt="">
   </section>
 
-
+<div class="div_2">
+  <div class="container">
+    <button class="btn" value="Submit" onclick="openPopup()">Submit</button>
+    <div class="popup" id="popup">
+      <img src="assets/image/404-tick.png" >
+      <h1>Thank You!</h1>
+      <p>Your request has been accepted successfully.</p>
+      <button type="button" onclick="closePopup()">OK</button>
+    </div>
+   </div>
+</div>
 
   
 <script src="assets/js/app.js" ></script>
